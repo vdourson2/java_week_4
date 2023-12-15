@@ -45,3 +45,12 @@ Additionally, you'll get acquainted with annotations like @Configuration, @Servi
 
 
 > **NOTE**: For practice, you are encouraged to choose any of the previous challenges and attempt to implement a Spring version of it. This will allow you to apply Spring concepts in real-world scenarios and reinforce your understanding of the framework. Enjoy the learning process and feel free to experiment with different aspects of Spring!
+
+## Date
+12/2023
+
+## Duration
+5 days
+
+## Progression
+WIP
