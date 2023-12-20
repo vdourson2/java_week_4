@@ -42,6 +42,7 @@ public class App {
 	    return inputLine;
     }
     
+    /*This method prints the words and their occurrences in a tabular format*/
     public static void printTable(Map<String, Integer> wordCountMap) {
     	System.out.printf("--------------------------%n");
     	System.out.printf("| %-14s | %-5s |%n", "Word", "Count");
