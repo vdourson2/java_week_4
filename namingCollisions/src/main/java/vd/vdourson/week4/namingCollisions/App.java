@@ -9,10 +9,8 @@ import org.springframework.context.annotation.AnnotationConfigApplicationContext
 import org.springframework.context.annotation.ComponentScan;
 import org.springframework.context.annotation.Configuration;
 
-/**
- * Hello world!
- *
- */
+
+// Small command-line tool using Maven and the Spring framework
 @Configuration
 @ComponentScan(basePackages = { "vd.vdourson.week4.namingCollisions" })
 public class App {
@@ -30,6 +28,7 @@ public class App {
 		}
 	}
 	
+	// This method receives as argument the command entered into the command-line and executes it
 	public static void treatInput(String inputLine) {
 		ApplicationContext context = new AnnotationConfigApplicationContext(App.class);
 		CommandInterface command;

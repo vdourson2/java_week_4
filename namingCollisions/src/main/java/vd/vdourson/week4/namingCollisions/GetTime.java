@@ -8,6 +8,7 @@ import org.springframework.stereotype.Component;
 @Component
 public class GetTime implements CommandInterface {
 
+	//This method prints the local time
 	@Override
 	public void execute() {
 		LocalTime time = LocalTime.now();
