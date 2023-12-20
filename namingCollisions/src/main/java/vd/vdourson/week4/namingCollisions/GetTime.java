@@ -5,7 +5,7 @@ import java.time.format.DateTimeFormatter;
 
 import org.springframework.stereotype.Component;
 
-
+@Component
 public class GetTime implements CommandInterface {
 
 	@Override
@@ -13,7 +13,6 @@ public class GetTime implements CommandInterface {
 		LocalTime time = LocalTime.now();
 		DateTimeFormatter formatTime = DateTimeFormatter.ofPattern("HH:mm:ss");
 		System.out.println("Current time is : " + time.format(formatTime));
-
 	}
 
 }

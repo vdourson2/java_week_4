@@ -2,7 +2,7 @@ package vd.vdourson.week4.namingCollisions;
 
 import org.springframework.stereotype.Component;
 
-
+@Component
 public class SayHello implements CommandInterface {
 
 	@Override
